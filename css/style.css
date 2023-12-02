@@ -1,0 +1,84 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
+.container {
+    background-color: rgb(83, 103, 83);
+}
+
+
+.header {
+    color: greenyellow;
+    background-color: rgb(53, 52, 52);
+}
+
+
+.importantElement {
+    color: rgb(5, 229, 5);
+}
+
+
+.paragraph {
+    background-color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+
+
+.whiteBackground {
+    background-color: aliceblue;
+}
+
+
+.listItem {
+    margin: 10px 0;
+}
+
+
+.list {
+    padding-left: 20px;
+    list-style-type: "";
+}
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.caption {
+    margin-bottom: 20px;
+}
+
+
+.tableCell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.tableHeader {
+    background-color: grey;
+    color: white;
+}
+
+
+.tableRow:hover {
+    background-color: antiquewhite;
+}
+
+
+.container2 {
+    overflow-x: auto;
+}
+
+
+.listItem {
+    list-style-type: square;
+}
